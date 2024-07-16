@@ -1,0 +1,18 @@
+.newboads h4 {
+    text-align: center;
+}
+
+.newboads h3 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 3px;
+    font-size: 28px;
+}
+
+.newboads h3 span {
+    color: white;
+    background: #e74c3c;
+    padding: 0px 10px;
+    border-radius: 8px;
+}

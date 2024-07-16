@@ -1,0 +1,44 @@
+.card {
+    max-width: 350px;
+    background: #2d3436;
+    color: white;
+    padding-bottom: 20px;
+    margin: 9px;
+    border-radius: 8px;
+}
+.image{
+    max-width: 320px;
+    height: 200px;
+    margin: 7px 14px;
+}
+
+
+.readmore {
+    background: #4834d4;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.newsitem {
+    max-width: 350px;
+    display: flex;
+}
+
+h5.title {
+    font-size: 20px;
+    margin-left: 15px;
+}
+p.description {
+    font-size: 13px;
+    padding: 11px;
+}
+
+.newsitem-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+}
