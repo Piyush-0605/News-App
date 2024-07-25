@@ -58,6 +58,11 @@ ul.side-nav {
 .side-nav li {
     padding-top: 5px;
 }
+.nav-menu ul li:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+   
+}
 
 @media (max-width:768px){
     .nav-menu{

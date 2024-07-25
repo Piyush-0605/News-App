@@ -8,6 +8,7 @@
     gap: 5px;
     margin-top: 3px;
     font-size: 28px;
+    color: white;
 }
 
 .newboads h3 span {
@@ -15,4 +16,7 @@
     background: #e74c3c;
     padding: 0px 10px;
     border-radius: 8px;
+}
+.newboads {
+    background: #161513;
 }

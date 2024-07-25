@@ -9,7 +9,7 @@ const Navbar = ({setCategory}) => {
     <div className='navbar' >
         
       <div onClick={()=>setCategory('general')} className="nav-logo">
-        <h>News</h>
+        <h3>News</h3>
       </div>
 
       <div className="nav-menu">
