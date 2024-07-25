@@ -18,7 +18,7 @@ const NewsBoads = ({category}) => {
       <h3>Latest<span>News</span></h3>
       <div className='newsitem-data'>
       {
-        articles.map((news,index)=>{
+        articles && articles.map((news,index)=>{
             return(
                 <NewsItem key={index}
                     title={news.title}
