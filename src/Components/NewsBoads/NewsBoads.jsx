@@ -6,7 +6,7 @@ const NewsBoads = ({category}) => {
     const[articles,setArticles]=useState([]);
 
     useEffect(()=>{  
-        let url=`http://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=7e0b90f160234b009686365e6b031e90`;
+        let url=`https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=7e0b90f160234b009686365e6b031e90`;
         fetch(url,{
           method: 'GET',
           headers: {
