@@ -7,7 +7,12 @@ const NewsBoads = ({category}) => {
 
     useEffect(()=>{  
         let url=`https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=7e0b90f160234b009686365e6b031e90`;
-        fetch(url)
+        fetch(url,{
+          method: 'GET',
+          headers: {
+            'Upgrade': 'HTTP/2.0'
+          }
+        })
         .then(res=>res.json())
         .then((data)=>setArticles(data.articles));
     },[category])
